@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raghav Sharma - Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/theme.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <nav>
+      <h1>Raghav Sharma</h1>
+      <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#contact">Contact</a></li>          
+      </ul>
+      <button id="dark-mode-toggle">🌙</button>
+    </nav>
+  </header>
+<!-- About Section --> 
+<section id="about">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <img src="images/images/images/profile-photo.jpeg" alt="Raghav Sharma" class="profile-photo">
+      <div class="about-details">
+        <p>Hello! I'm Raghav Sharma, a passionate software developer based in Chennai, Tamil Nadu.</p>
+        <p>Email: <a href="mailto:raghavsharma197197@gmail.com">raghavsharma197197@gmail.com</a> | Phone: 7006207698</p>
+        
+        <!-- Centered Social Links -->
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/rags3" target="_blank" aria-label="LinkedIn">
+                <img src="images/images/images/linkedin-icon.png" alt="LinkedIn">
+              </a>
+              <a href="https://www.hackerrank.com/profile/rs0216" target="_blank" aria-label="GitHub">
+                <img src="images/images/images/github-icon.png" alt="GitHub">
+              </a>
+              <a href="https://leetcode.com/u/RA2211003010743/" target="_blank" aria-label="LeetCode">
+                <img src="images/images/images/leetcode-icon.png" alt="LeetCode">
+          </a>
+        </div>
+      </div>
+    </div>
+</section>
+  
+  <!-- Resume Section -->
+  <section id="resume">
+    <h2>Resume</h2>
+    <p>Currently studying Computer Science at SRM Institute Of Science & Technology with a CGPA of 8.68.</p>
+    <a href="css/assets/Resume.pdf" download>Download Resume</a>
+  </section>
+
+  <!-- Work Experience Section -->
+  <section id="experience">
+    <h2>Work Experience</h2>
+    <div class="experience-card">
+      <h3>IoT Intern at Emertxe</h3>
+      <p><strong>Location:</strong> Remote</p>
+      <p><strong>Duration:</strong> July 2024 - August 2024</p>
+    </div>
+    <div class="experience-card">
+      <h3>Graphic Design Intern at ShadowFox</h3>
+      <p><strong>Location:</strong> Remote</p>
+      <p><strong>Duration:</strong> July 2024 - August 2024</p>
+    </div>
+    <div class="experience-card">
+      <h3>Web Developer Intern at Bharatintern</h3>
+      <p><strong>Location:</strong> Remote</p>
+      <p><strong>Duration:</strong> June 2024 - July 2024</p>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <ul>
+      <li>SWAYAM-NPTEL: Computer Architecture</li>
+      <li>SWAYAM-NPTEL: Programming in Java</li>
+    </ul>
+  </section>
+  
+  
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>C/C++</li>
+      <li>Python</li>
+      <li>HTML, CSS, JavaScript</li>
+      <li>SQL</li>
+      <li>AI & Machine Learning</li>
+    </ul>
+  </section>
+
+<!-- Projects Section -->
+<section id="projects">
+    <h2>Projects</h2>
+    
+    <!-- Project: Covid-19 Detection System -->
+    <div class="project-card">
+      <h3>Covid-19 Detection System</h3>
+      <p>Built a CNN model for x-ray analysis to detect COVID-19 infection.</p>
+      <p><strong>Technologies:</strong> Python, CNN, Machine Learning</p>
+    </div>
+  
+    <!-- Project: Envirnosense -->
+    <div class="project-card">
+      <h3>Envirnosense (Intelligent Occupant Management System)</h3>
+      <p>Enhanced productivity and comfort in workplaces/classrooms with real-time monitoring.</p>
+      <p><strong>Technologies:</strong> IoT sensors, AI-powered analytics, Cloud storage</p>
+      <p><strong>Features:</strong> Automated adjustments, Personalized recommendations, Robust security</p>
+    </div>
+  
+    <!-- Project: Library Management System -->
+    <div class="project-card">
+      <h3>Library Management System</h3>
+      <p>Python-based library management with user authentication, book/member management.</p>
+      <p><strong>Technologies:</strong> Python, SQLite/MySQL, Tkinter/PyQt</p>
+    </div>
+  
+    <!-- Project: Cafe Management System -->
+    <div class="project-card">
+      <h3>Cafe Management System</h3>
+      <p>C++ based management for cafe operations including inventory and item management.</p>
+      <p><strong>Technologies:</strong> C++, Binary Search Tree, File I/O</p>
+    </div>
+  </section>
+  
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="submit_form.php" method="POST">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="message">Message</label>
+      <textarea id="message" name="message" required></textarea>
+      
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+  <footer>
+    <p>© 2024 Raghav Sharma. Built with passion and code. Connect on <a href="https://www.linkedin.com/in/raghav-sharma" target="_blank">LinkedIn</a>.</p>
+  </footer>  
+  <script src="js/darkMode.js"></script>
+</body>
+</html>
